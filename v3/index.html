@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+  <style>
+    body{
+      background-color:black;
+    }
+    .container{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      margin: auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+    video {
+	    width: 100%;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <video controls crossorigin playsinline></video>
+    </div>
+    <script src="hls.min.js"></script>
+    <script src="player.js"></script>
+</body>
+</html>
