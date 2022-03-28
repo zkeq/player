@@ -26,6 +26,7 @@ var cookie = {
           }
   };
   var videoID =  url;//设置一个视频的id （唯一，可以设置为页面地址,可用md5）
+  videoID =encodeURIComponent(videoID)
   var cookieTime = cookie.get('time_' + videoID);
   if(!cookieTime || cookieTime == undefined) {
           cookieTime = 0;

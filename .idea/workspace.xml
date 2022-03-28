@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da11151-21c4-4836-ab76-7709ec95b591" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/v1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v4/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/v4/player.js" afterDir="false" />
+    <list default="true" id="4da11151-21c4-4836-ab76-7709ec95b591" name="变更" comment="更新cookie的存储处理逻辑&#10;事先进行 url 编码处理&#10;防止含有等于号时无法记忆时长">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mp4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp4/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/mp4/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/v2/player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,15 @@
       <option name="presentableId" value="Default" />
       <updated>1648425044010</updated>
       <workItem from="1648425045433" duration="5000" />
+      <workItem from="1648440445655" duration="400000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新cookie的存储处理逻辑&#10;事先进行 url 编码处理&#10;防止含有等于号时无法记忆时长" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新cookie的存储处理逻辑&#10;事先进行 url 编码处理&#10;防止含有等于号时无法记忆时长" />
   </component>
 </project>
