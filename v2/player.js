@@ -8,3 +8,4 @@ video: {
     type: 'hls',
 },
 });
+document.title = url

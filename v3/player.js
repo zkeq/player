@@ -1,7 +1,7 @@
  document.addEventListener('DOMContentLoaded', () => {
     const source = window.location.href.split("url=")[1];
     const video = document.querySelector('video');
-    
+    document.title = source
     // For more options see: https://github.com/sampotts/plyr/#options
     // captions.update is required for captions to work with hls.js
     const player = new Plyr(video, {captions: {active: true, update: true, language: 'en'}});
