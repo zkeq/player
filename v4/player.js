@@ -1,6 +1,5 @@
 
 function playM3u8(url){
-  document.title = source
   if(Hls.isSupported()) {
       var player = videojs("player");
       player.src(url);
