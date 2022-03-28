@@ -4,35 +4,35 @@
 > 
 > 主要支持格式为 `m3u8` 和 `mp4`
 
-### M3u8
+#### M3u8
 
-`接口1` (原生)
+##### `接口1` (原生)
 
 ```url
 https://player.icodeq.com/v1/?url=
 ```
 
-`接口2` (Dplayer)
+##### `接口2` (Dplayer)
 
 ```url
 https://player.icodeq.com/v2/?url=
 ```
 
-`接口3` (Plyr)
+##### `接口3` (Plyr)
 
 ```url
 https://player.icodeq.com/v3/?url=
 ```
 
-`接口4` (video.js)
+##### `接口4` (video.js)
 
 ```url
 https://player.icodeq.com/v4/?url=
 ```
 
-### MP4
+#### MP4
 
-`Dplayer`
+##### `Dplayer`
 
 ```url
 https://player.icodeq.com/mp4/?url=
