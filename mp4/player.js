@@ -1,4 +1,5 @@
-var url = window.location.href.split("url=")[1];
+var url = window.location.href.split("url=")[1].split("?pic=")[0];
+var pic = window.location.href.split("pic=")[1];
 document.title = url
 
 var cookie = {
@@ -38,6 +39,7 @@ container: document.getElementById('player'),
 preload:'none',
 theme:'#44bdff',
 video: {
+    pic: pic,
     url: url,
 },
 });
